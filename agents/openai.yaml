@@ -1,0 +1,7 @@
+interface:
+  display_name: "성찰 후 반영"
+  short_description: "사용자 정정과 확인 답변의 범위를 구분해 다음 작업 지침에 반영"
+  default_prompt: "$reflect-and-apply 이번 채팅의 정정과 확인 답변을 검토하고, 다음 작업 전에 적용할 기준만 관련 지침과 원장에 반영해줘."
+
+policy:
+  allow_implicit_invocation: true
